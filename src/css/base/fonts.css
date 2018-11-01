@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Chronicle Display';
+  src: url('../../fonts/ChronicleDisplay-Black.woff2') format('woff2'),
+    url('../../fonts/ChronicleDisplay-Black.woff') format('woff');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Calibre';
+  src: url('../../fonts/Calibre-Regular.woff2') format('woff2'),
+      url('../../fonts/Calibre-Regular.woff') format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Calibre Bold';
+  src: url('../../fonts/Calibre-Bold.woff2') format('woff2'),
+      url('../../fonts/Calibre-Bold.woff') format('woff');
+  font-weight: 800;
+}

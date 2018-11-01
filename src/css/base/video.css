@@ -1,0 +1,47 @@
+.panel__video-controls {
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    z-index: 11;
+
+    @media (--medium-viewport) {
+        left: 50%;
+    }
+}
+
+#custom-seekbar {  
+    cursor: pointer;
+    height: 10px;
+    margin-bottom: 10px;
+    outline: thin solid orange;
+    overflow: hidden;
+    position: relative;
+    width: 400px;
+}
+
+#custom-seekbar span {
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 0px;
+}
+
+#panel__video-film-play-pause, #panel__video-television-play-pause{
+    width: 6rem;
+    height: 6rem;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/* play pause svg */
+#Desktop-pause .cls-2 {
+    fill: none !important;
+}
+
+#Desktop-pause .cls-3 {
+    fill: #e6e6e6;
+}
+
